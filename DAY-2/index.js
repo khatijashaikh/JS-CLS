@@ -113,3 +113,10 @@ if (num1 > num2) {
 else {
     console.log("Number 2 is greater")
 }
+
+
+//                    var            let           const
+// reassign           true           true          false      
+// re-declare         true           false         false
+// scope              global/func    block-scope   block-scope
+// hoisting           true           false         false
