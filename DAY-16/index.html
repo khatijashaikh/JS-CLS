@@ -11,7 +11,15 @@
 <script>
 function setDatainStorage(){
     alert("Function");
-localStorage.setItem("MyNumber",{count:10});
+localStorage.setItem("MyNumber",JSON.stringify( {count:10}));
 }
+
 </script>
 </html>
+
+
+<!-- json-> javascript object notation -->
+ <!-- in JS: {key: "Data"} -->
+  <!-- Json: {"key":"Data"} -->
+  <!-- JSON.stringify()->JS->Json
+  JSON.parse()->Json->JS -->
